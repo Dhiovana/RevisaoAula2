@@ -25,3 +25,11 @@ int calculo(int num1, int num2, int calcOperador, int &aux){
     aux = 1;
 	return resultado;
 }
+
+int main(){
+	int num1, num2, aux, resultadoCalc;
+	char calcOperador;
+	cout << "Escolha o primeiro número \n";
+	cin >> num1;
+	cout << "Escolha o segundo número \n";
+	cin >> num2;
